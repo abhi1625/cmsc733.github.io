@@ -78,6 +78,7 @@ The fundamental matrix, denoted by $$F$$, is a $$3\times 3$$ (_rank 2_) matrix t
 Let's say a point $$\mathbf{X}$$ in the 3D-space (viewed in two images) is captured as $$\mathbf{x}$$ in the first image and $$\mathbf{x'}$$ in the second. _Can you think how to formulate the relation between the corresponding image points $$\mathbf{x}$$ and $$\mathbf{x'}$$?_ Consider Fig. 2. Let $$\mathbf{C}$$ and $$\mathbf{C'}$$ be the respective camera centers which forms the baseline for the stereo system. Clearly, the points $$\mathbf{x}$$, $$\mathbf{x'}$$ and $$\mathbf{X}$$ (or $$\mathbf{C}$$, $$\mathbf{C'}$$ and $$\mathbf{X}$$) are coplanar _i.e._  $$\mathbf{\overrightarrow{Cx}}\cdot \left(\mathbf{\overrightarrow{CC'}}\times\mathbf{\overrightarrow{C'x'}}\right)=0$$ 
 and the plane formed can be denoted by $$\pi$$. Since these points are coplanar, the rays back-projected from $$\mathbf{x}$$ and $$\mathbf{x'}$$ intersect at $$\mathbf{X}$$. This is the most significant property in searching for a correspondence. 
 
+**(Missing Pictures)**
 <div class="fig fighighlight">
   <img src="/assets/sfm/epipole1.png"  width="120%">
   <div class="figcaption">
